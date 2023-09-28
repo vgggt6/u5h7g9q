@@ -1,4 +1,4 @@
-﻿body{width: 1200px; max-width: 100%;text-align:center;margin: 0 auto;background-color:#FFF;
+body{width: 1200px; max-width: 100%;text-align:center;margin: 0 auto;background-color:#FFF;
 } 
 /* loolg开始 */
 #lougoucup {height:100%;width: 1200px; max-width: 100%;display: flex;  flex-wrap: wrap;background-color:#FFF;}
@@ -9,11 +9,11 @@
 
 
 .guanggaop {height:100px;width: 800px; max-width: 100%;background-color:#FFF;}
-.guanggaop  img{height:100px; width:972px; max-width: 100%;vertical-align: middle;object-fit: contain;}
+.guanggaop  img{height:100%;width: 600%;max-width: 100%;vertical-align: middle;object-fit: contain;}
 .tuanggas {height:100px;width: 600px; max-width: 100%;background-color:#FFF;}
-.tuanggas  img{height:100px; width:600px; max-width: 100%;vertical-align: middle;object-fit: contain;}
+.tuanggas  img{height:100%;width: 600%;max-width: 100%;vertical-align: middle;object-fit: contain;}
 .znhomebagea {height:100px;width: 880px; max-width: 100%;background-color:#FFF;}
-.znhomebagea  img{height:100px; width:880px; max-width: 100%;vertical-align: middle;object-fit: contain;}
+.znhomebagea  img{height:100%;width: 600%;max-width: 100%;vertical-align: middle;object-fit: contain;}
 
 
 #huygerdmenu{ height:100%;width: 1200px; max-width: 100%;display: flex;  flex-wrap: wrap; background:#FFF;border:0px solid;border-radius:2px;margin:0 auto} 
@@ -63,7 +63,7 @@
 .hzhubaituwen img:hover {width:290px; height:229px; opacity: 0.5;}
 
 .pagewushome {display: flex;  flex-wrap: wrap;background-color:#F0F8FF;}
-.ahengbaituwen {width:171px; height:282px;word-wrap:break-word;overflow:hidden;margin:0px 5px 0px 0px;}
+.ahengbaituwen {width:171px; height:339px;word-wrap:break-word;overflow:hidden;margin:0px 5px 0px 0px;}
 .ahengbaituwen img{width:171px; height:250px;border-radius:19px;border-style:groove;}
 .ahengbaituwen a{width:171px; height:100%; color:#000;font-size:20px;text-decoration:none;}
 .ahengbaituwen img:hover {width:171px; height:250px; opacity: 0.5;}
@@ -165,9 +165,9 @@
 
 
 #menu{background-color:#FFF;height:100%;width:880px;max-width: 100%;float:left;}	
-#content{background-color:#FFF;height:100%;width:320px;max-width: 100%;float:left;}	
+#content{background-color:#FFF;height:100%;width:320px;max-width: 100%;float:left;overflow:hidden;}	
 #footer{background-color:#FFF;clear:both;text-align:center;}		
-
+.ttontent img{object-fit: scale-down;width:100%; height:100%;}
 
 
 
@@ -203,3 +203,4 @@
 
 .zhfangengtu a{color:#000;font-size:50px;text-decoration:none;}
 .zhfangengtu{width:50px; height:50px;background-color:000;position:fixed;bottom:30px;right:9px;}
+
